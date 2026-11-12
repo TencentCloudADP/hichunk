@@ -12,4 +12,4 @@ openai
 rouge==1.0.1
 torch==2.8.0
 transformers==4.56.2
-vllm==0.10.2
+vllm>=0.11.1
