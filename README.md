@@ -4,8 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv)](https://arxiv.org/abs/2509.11552)
 [![Code](https://img.shields.io/badge/Code-Github-00BFFF.svg?logo=github)](https://github.com/TencentYoutuResearch/HiChunk)
-[![HuggingFace](https://img.shields.io/badge/Data-Huggingface-6fd21f.svg?logo=huggingface)]() 
-[![HuggingFace](https://img.shields.io/badge/Model-Huggingface-ffd21f.svg?logo=huggingface)]() 
+[![HuggingFace](https://img.shields.io/badge/Model-Huggingface-ffd21f.svg?logo=huggingface)](https://huggingface.co/tencent/Youtu-HiChunk) 
 </div>
 
 <div style="display: flex;">
@@ -17,7 +16,7 @@
 <div>
 
 
-- `HiCBench` is a benchmark focused on evaluating document chunking quality. We select high-quality documents from [OHRBench](https://huggingface.co/datasets/opendatalab/OHR-Bench) to form the original corpus of HiCBench. HiCBench contains detailed hierarchical structural annotations of the documents, which are used to synthesize evidence-intensive QA pairs. Compared to other benchmarks used to evaluate RAG systems, HiCBench provides better assessment of different chunking methods, thereby helping researchers identify bottlenecks in RAG systems.
+- [`HiCBench`](https://drive.google.com/file/d/1PpU8WHwsnZXa844vXMFl3IgHax4CL3Nh/view?usp=drive_link) is a benchmark focused on evaluating document chunking quality. We select high-quality documents from [OHRBench](https://huggingface.co/datasets/opendatalab/OHR-Bench) to form the original corpus of HiCBench. HiCBench contains detailed hierarchical structural annotations of the documents, which are used to synthesize evidence-intensive QA pairs. Compared to other benchmarks used to evaluate RAG systems, HiCBench provides better assessment of different chunking methods, thereby helping researchers identify bottlenecks in RAG systems.
 - `HiChunk` is a hierarchical document chunking framework for RAG systems. Combined with the Auto-Merge retrieval algorithm, it can dynamically adjust the semantic granularity of retrieval fragments, mitigating issues of incomplete information caused by chunking.
 </div>
 </div>
